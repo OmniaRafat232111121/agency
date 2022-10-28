@@ -151,7 +151,6 @@ body{
   100% { transform: translate(2px, 2px) rotate(1deg); }
 }
 
-.section { padding-block: var(--section-padding); }
 .section-title {
   color: var(--st-patricks-blue);
   font-size: var(--fs-3);
@@ -168,13 +167,14 @@ body{
   left:20%;
   bottom:-20px;
   width: 70%;
-  transform: translateX(-50%);
   height: 6px;
   border-radius: 10px;
-  background:linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
+  background-image: var(-);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
-
 
 /*__________________________________________*\
 #header
@@ -380,62 +380,3 @@ body{
 
 .stats-text { font-size: var(--fs-8); }
 
-.service-list{
-  display:grid;
-  gap:30px;
-}
-.service-card{
-  padding:30px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius-12);
-  -webkit-border-radius: var(--radius-12);
-  -moz-border-radius: var(--radius-12);
-  -ms-border-radius: var(--radius-12);
-  -o-border-radius: var(--radius-12);
-}
-.service-card .card-icon {
-  background-image: url("../images/service-banner-pattern.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: hsla(335, 87%, 53%, 0.12);
-  aspect-ratio: 1 / 1;
-  max-width: 165px;
-  display: grid;
-  place-content: center;
-  margin-inline: auto;
-  transition: var(--transition-1);
-}
-.service-card:hover .card-icon { background-color: var(--winter-sky); }
-
-.service-card .card-icon ion-icon {
-  font-size: 5rem;
-  color: var(--winter-sky);
-  --ionicon-stroke-width: 20px;
-  transition: var(--transition-1);
-}
-
-.service-card:hover .card-icon ion-icon { color: var(--white); }
-
-.service-card .title {
-  text-align: center;
-  margin-block-end: 15px;
-}
-
-.service-card .text {
-  text-align: center;
-  margin-block-end: 20px;
-}
-
-.service-card .card-btn {
-  margin-inline: auto;
-  padding: 15px;
-  border: 1px solid var(--winter-sky);
-  border-radius: 50%;
-  color: var(--winter-sky);
-  transition: var(--transition-1);
-}
-
-.service-card .card-btn:is(:hover, :focus) {
-  color: var(--white);
-  background-color: var(--winter-sky);
-}
