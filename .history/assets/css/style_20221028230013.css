@@ -314,6 +314,8 @@ body{
   font-size: var(--fs-8);
   margin-block-end: 30px;
 }
+
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -323,11 +325,4 @@ body{
 .about .section-title {
   margin-inline: 0;
 }
-.about .underline::before{
-  left:0;
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-}
+.about .u
