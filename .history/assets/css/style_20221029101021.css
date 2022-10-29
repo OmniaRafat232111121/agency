@@ -481,19 +481,6 @@ body{
   border-radius: 50%;
 }
 
-.features-card .icon ion-icon { --ionicon-stroke-width: 20px; }
-
-.features-card .title { margin-block-end: 10px; }
-
-.features-banner { margin-block: 40px; }
-
-.features-banner > img {
-  max-width: max-content;
-  margin-inline: auto;
-}
-
-
-
 
 @media (min-width: 550px) {
   .container {
