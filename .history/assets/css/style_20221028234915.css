@@ -479,9 +479,6 @@ body{
   -ms-border-radius:10px;
   -o-border-radius:10px;
 }
-/*about*/
-.stats-list { grid-template-columns: repeat(3, 1fr); }
-
 
 
 

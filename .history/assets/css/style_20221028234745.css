@@ -474,14 +474,15 @@ body{
   align-items: center;
   gap: 5px;
   margin-inline-start: auto;
+  background:linear-gradient(90deg,var(--razzmatazz),var(--rajah));
+  width: 90px;
+  padding:
+  border-radius:10px;
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
   -ms-border-radius:10px;
   -o-border-radius:10px;
 }
-/*about*/
-.stats-list { grid-template-columns: repeat(3, 1fr); }
-
 
 
 

@@ -194,6 +194,7 @@ body{
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
+
 .header .btn { display: none; }
 
 .header {
@@ -474,14 +475,8 @@ body{
   align-items: center;
   gap: 5px;
   margin-inline-start: auto;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  -ms-border-radius:10px;
-  -o-border-radius:10px;
+  background-color: var(--gradient-2);
 }
-/*about*/
-.stats-list { grid-template-columns: repeat(3, 1fr); }
-
 
 
 
